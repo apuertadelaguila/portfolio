@@ -1,32 +1,36 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
+
+    const router = useRouter();
+
     return (
-      <nav className="row">
+      <nav className="row g-0">
         <div className="col-md-8">
           <Link href="/">
-            <a>Alejandro Puerta del Águila</a>
+            Alejandro Puerta del Águila
           </Link>
         </div>
         <ul className="col-md-4">
-          <li>
+          <li className={router.pathname == "/" ? "border border-white" : ""}>
             <Link href="/">
-              <a>Home</a>
+              Home
             </Link>
           </li>
-          <li>
+          <li className={router.pathname == "/work" ? "border border-white" : ""}>
             <Link href="/work">
-              <a>Work</a>
+              Work
             </Link>
           </li>
-          <li>
+          <li className={router.pathname == "/about" ? "border border-white" : ""}>
             <Link href="/about">
-              <a>About</a>
+              About
             </Link>
           </li>
-          <li>
+          <li className={router.pathname == "/contact" ? "border border-white" : ""}>
             <Link href="/contact">
-              <a>Contact</a>
+              Contact
             </Link>
           </li>
         </ul>
