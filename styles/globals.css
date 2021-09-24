@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
 html,
 body {
@@ -37,6 +38,8 @@ nav > div {
   display: flex;
   align-items: center;
   text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 nav > div a:hover {
@@ -143,4 +146,37 @@ footer {
   background-color: rgb(240, 240, 240);
   z-index: 1;
   height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-name p {
+  margin: 0;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.icon {
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img{
+  -webkit-filter: invert(100%);
 }
