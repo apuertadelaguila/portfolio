@@ -1,7 +1,9 @@
 const Work = () => {
-    return (  
-        <h1>Projects</h1>
+    return (
+        <div className="work">
+            <h1>Projects</h1>
+        </div>
     );
 }
- 
+
 export default Work;

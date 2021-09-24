@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  background-color: gainsboro;
 }
 
 a {
@@ -22,6 +24,10 @@ nav {
   font-weight: bold;
   background-color: black;
   color: white;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
 }
 
 nav > div {
@@ -78,11 +84,6 @@ nav a:hover {
   }
 }
 
-.scale-up-center{-webkit-animation:scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both;animation:scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both}
-
-
- @-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
-
  .slide-in-top{-webkit-animation:slide-in-top 1s cubic-bezier(.47,0.000,.745,.715) both;animation:slide-in-top 1s cubic-bezier(.47,0.000,.745,.715) both;
   width: 100%;
   height: 100vh;
@@ -96,4 +97,31 @@ nav a:hover {
 .second-p {
   width: 100%;
   height: 100vh;
+}
+
+.welcome {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.work {
+  margin-top: 100px;
+}
+
+.about {
+  margin-top: 100px;
+}
+
+.contact {
+  margin-top: 100px;
 }

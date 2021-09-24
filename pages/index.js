@@ -1,21 +1,22 @@
+import { useEffect } from 'react';
+import Image from 'next/image';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init({
+        duration: 1000
+    })
+}, [])
+
   return (
-    <div className="scale-up-center">
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est dolore
-        temporibus alias, neque odio sed fuga fugiat quo maiores saepe quos
-        ipsam sapiente recusandae ducimus culpa! Quisquam, esse necessitatibus
-        corporis aperiam enim, aspernatur veniam officia exercitationem illo cum
-        harum! Mollitia ipsum nobis incidunt. Rem fugiat voluptate similique,
-        odit, officiis atque vel fuga sed impedit pariatur maiores vero quas,
-        incidunt id minima ipsum ratione nobis ad porro explicabo. Fuga ab
-        cupiditate harum vel fugit deserunt ullam dicta ratione molestias,
-        voluptas commodi, voluptatem quae, eaque laborum similique itaque
-        maiores totam. Perferendis, aliquam! Fugit cupiditate, laborum
-        temporibus vero tenetur nesciunt atque assumenda nam.
-      </p>
+    <div className="welcome" data-aos="slide-left">
+      <Image src="/Alex.png" width="180" height="200"/>
+      <h1>Alejandro Puerta</h1>
+      <h2>Front-end Developer</h2>
+      <p>Welcome to my Portfolio</p>
     </div>
   );
 }
