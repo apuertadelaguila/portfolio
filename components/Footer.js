@@ -20,7 +20,7 @@ const Footer = () => {
                     </a>
                 </Link>
                 <Link href="https://github.com/aguiluxo91">
-                    <a className="icon">
+                    <a className="icon" target="_blank">
                         <Image src="/github.svg" alt="linkedin" width="25" height="25" />
                     </a>
                 </Link>
