@@ -7,13 +7,13 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-    <nav className="row g-0">
-      <div className="col-md-8">
+    <nav>
+      <div>
         <Link href="/">
           Alejandro Puerta del Águila
         </Link>
       </div>
-      <ul className="col-md-4">
+      <ul>
         <li className={router.pathname == "/" ? "li-borders" : ""}>
           <Link href="/">
             Home
