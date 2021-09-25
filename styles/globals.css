@@ -62,7 +62,11 @@ nav ul li a {
 
 nav ul li {
   margin: 0 15px;
-  padding: 5px
+  padding: 5px;
+}
+
+.li-borders {
+  border: solid white 0.1px;
 }
 
 nav ul li:hover { 
@@ -198,14 +202,27 @@ footer {
   justify-content: center;
 }
 
+.project {
+  max-width: 350px;
+  padding: 0;
+  margin: 15px;
+}
+
+.project div {
+  background-color: black;
+  padding: 5px;
+}
+
+.project div p {
+  color: white;
+  margin: 0;
+}
+
 .project img {
   width: 350px;
   height: 200px;
 }
 
-.project {
-  max-width: 350px;
-}
 
 @media only screen and (max-width: 992px) {
 
