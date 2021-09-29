@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav>
       <div>
         <Link href="/">
-          Alejandro Puerta del Águila
+          Alejandro Puerta
         </Link>
       </div>
       <ul>
