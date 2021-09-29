@@ -49,16 +49,14 @@ nav > div a:hover {
 
 nav ul {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   list-style: none;
   margin-bottom: 0;
-
 }
 
 nav ul li a {
   padding: 10px;
-  
 }
 
 nav ul li {
@@ -188,6 +186,7 @@ footer {
 .work h1 {
   text-align: center;
   font-family: 'Fira Sans', sans-serif;
+  padding: 10px;
 }
 
 .projects {
@@ -212,7 +211,9 @@ footer {
 .project-description {
   padding: 30px;
   height: auto;
+  font-weight: bold;
 }
+
 
 .project-description p {
   font-size: 13px;
@@ -263,8 +264,8 @@ footer {
 @media only screen and (max-width: 992px) {
 
   .project {
-    max-width: 450px;
-    width: 450px;
+    max-width: 500px;
+    width: 500px;
   }
 
   .project-description {
@@ -272,7 +273,7 @@ footer {
   }
 
   .project-img {
-    width: 450px;
+    width: 500px;
   }
 
   .container {

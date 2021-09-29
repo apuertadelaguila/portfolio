@@ -15,18 +15,18 @@ const Work = () => {
         <div className="work">
             <h1>Projects I'm working on</h1>
             <section className="projects">
-                <div className="project" data-aos="fade">
-                    <img src="/super-pang-arcade.png" className="project-img"/>
+            <div className="project" data-aos="fade">
+                    <img src="/ThePhoneCave.png" className="project-img"/>
                     <div className="project-description">
-                        <div>SUPER PANG</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolore illo recusandae facere hic voluptatem fugit tempore qui veritatis dolorum!</p>
+                        <div>THE PHONE CAVE</div>
+                        <p>Web App for buying smartphones or rating them. Deployed a fully MERN responsive web application from scratch, implementing shopping cart with localstorage, being able to log in with social login and deployed on Heroku in a Docker container.</p>
                         <div className="description-icons">
-                            <Link href="https://aguiluxo91.github.io/Super-Pang-IronHack-1st-Project/index.html">
+                            <Link href="https://thephonecave-ih.herokuapp.com">
                                 <a target="_blank">
                                     <img src="/rocket.svg" alt="rocket" />
                                 </a>
                             </Link>
-                            <Link href="https://github.com/aguiluxo91/Super-Pang-IronHack-1st-Project">
+                            <Link href="https://github.com/aguiluxo91/reto_web">
                                 <a  target="_blank">
                                     <img src="/github.svg" alt="github-icon" />
                                 </a>
@@ -34,49 +34,19 @@ const Work = () => {
                         </div>
                         <div className="tech-icons">
                             <span>
-                                <img src="/js-icon.svg" alt="javascript-icon" />
-                            </span>
-                            <span>
-                                <img src="/html-icon.svg" alt="html-icon" />
-                            </span>
-                            <span>
-                                <img src="/css-icon.svg" alt="css-icon" />
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div className="project" data-aos="fade">
-                    <img src="/JustGame.png" className="project-img"/>
-                    <div className="project-description">
-                        <div>JUST GAME</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, nesciunt ea tenetur dignissimos eum corporis aperiam eveniet omnis vel. Vel necessitatibus, fugiat qui ex voluptatibus sed ratione consectetur est et.</p>
-                        <div className="description-icons">
-                            <Link href="http://just-game.herokuapp.com">
-                                <a target="_blank">
-                                    <img src="/rocket.svg" alt="rocket" />
-                                </a>
-                            </Link>
-                            <Link href="https://github.com/JustGameIronhack/just-game">
-                                <a  target="_blank">
-                                    <img src="/github.svg" alt="github-icon" />
-                                </a>
-                            </Link>
-                        </div>
-                        <div className="tech-icons">
-                            <span>
-                                <img src="/js-icon.svg" alt="express-icon" />
+                                <img src="/js-icon.svg" alt="css-icon" />
                             </span>
                             <span>
                                 <img src="/express-icon.svg" alt="javascript-icon" />
+                            </span>
+                            <span>
+                                <img src="/react-icon.svg" alt="express-icon" />
                             </span>
                             <span>
                                 <img src="/node-icon.svg" alt="html-icon" />
                             </span>
                             <span>
                                 <img src="/mongodb-icon.svg" alt="css-icon" />
-                            </span>
-                            <span>
-                                <img src="/hbs-icon.svg" alt="css-icon" />
                             </span>
                         </div>
                     </div>
@@ -85,7 +55,7 @@ const Work = () => {
                     <img src="/PetPortal.png" className="project-img"/>
                     <div className="project-description">
                         <div>PET PORTAL</div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum beatae corrupti facere eum aliquid dolorem veritatis, alias, consequuntur nam, possimus animi! Consequatur, ducimus blanditiis dolorem labore amet quam perspiciatis, nisi fugit tenetur voluptate rerum dicta, ab est numquam? Velit, voluptates!</p>
+                        <p>Final bootcamp project. MERN App designed to facilitate the search for care for our pets or to be the caregivers. Added several implementations such as social login or Google Maps and Autocomplete Api and deployed on Heroku in a Docker container. Pair programmed remotely.</p>
                         <div className="description-icons">
                             <Link href="https://pet-portal-web.herokuapp.com">
                                 <a target="_blank">
@@ -118,17 +88,17 @@ const Work = () => {
                     </div>
                 </div>
                 <div className="project" data-aos="fade">
-                    <img src="/ThePhoneCave.png" className="project-img"/>
+                    <img src="/JustGame.png" className="project-img"/>
                     <div className="project-description">
-                        <div>THE PHONE CAVE</div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum enim perspiciatis facere at, consequatur expedita atque reprehenderit velit delectus, vitae quae? Possimus assumenda, eligendi error voluptatem aperiam exercitationem ratione nihil?</p>
+                        <div>JUST GAME</div>
+                        <p>Second Ironhack project. Web App for video games purchasing and selling. Deployed a fully responsive web application from scratch by using Node JS, Express, MongoDB & Handlebars. Implemented GoogleMaps API for geocoding and Autocomplete, social login with Google and Steam. Pair programmed remotely.</p>
                         <div className="description-icons">
-                            <Link href="https://thephonecave-ih.herokuapp.com">
+                            <Link href="http://just-game.herokuapp.com">
                                 <a target="_blank">
                                     <img src="/rocket.svg" alt="rocket" />
                                 </a>
                             </Link>
-                            <Link href="https://github.com/aguiluxo91/reto_web">
+                            <Link href="https://github.com/JustGameIronhack/just-game">
                                 <a  target="_blank">
                                     <img src="/github.svg" alt="github-icon" />
                                 </a>
@@ -136,19 +106,49 @@ const Work = () => {
                         </div>
                         <div className="tech-icons">
                             <span>
-                                <img src="/js-icon.svg" alt="css-icon" />
+                                <img src="/js-icon.svg" alt="express-icon" />
                             </span>
                             <span>
                                 <img src="/express-icon.svg" alt="javascript-icon" />
-                            </span>
-                            <span>
-                                <img src="/react-icon.svg" alt="express-icon" />
                             </span>
                             <span>
                                 <img src="/node-icon.svg" alt="html-icon" />
                             </span>
                             <span>
                                 <img src="/mongodb-icon.svg" alt="css-icon" />
+                            </span>
+                            <span>
+                                <img src="/hbs-icon.svg" alt="css-icon" />
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div className="project" data-aos="fade">
+                    <img src="/super-pang-arcade.png" className="project-img"/>
+                    <div className="project-description">
+                        <div>SUPER PANG</div>
+                        <p>This is the first project during my Ironhack Web Development Bootcamp! I programed an arcade game Pang style in which I mastered the object oriented programming (OOP) in a JavaScript environment.</p>
+                        <div className="description-icons">
+                            <Link href="https://aguiluxo91.github.io/Super-Pang-IronHack-1st-Project/index.html">
+                                <a target="_blank">
+                                    <img src="/rocket.svg" alt="rocket" />
+                                </a>
+                            </Link>
+                            <Link href="https://github.com/aguiluxo91/Super-Pang-IronHack-1st-Project">
+                                <a  target="_blank">
+                                    <img src="/github.svg" alt="github-icon" />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="tech-icons">
+                            <span>
+                                <img src="/js-icon.svg" alt="javascript-icon" />
+                            </span>
+                            <span>
+                                <img src="/html-icon.svg" alt="html-icon" />
+                            </span>
+                            <span>
+                                <img src="/css-icon.svg" alt="css-icon" />
                             </span>
                         </div>
                     </div>
