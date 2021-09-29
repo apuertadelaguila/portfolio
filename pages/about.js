@@ -10,6 +10,7 @@ const About = () => {
     }, [])
 
     return (
+        <>
         <div className="about" data-aos="fade-down">
             <h1>Who I am</h1>
             <p><b>Junior Front-end Developer based in Berlin!</b></p>
@@ -20,6 +21,10 @@ const About = () => {
             <p>I am a person who knows and likes to work in a team, but who also knows how to enjoy working alone and it satisfies and motivates me to meet goals as well as to evolve professionally.</p>
             <p>Regarding my hobbies, I like to play instruments, play sports, play video games and of course learn more about programming which has become one of my main hobbies.</p>
         </div>
+        <div className="alex-pc">
+            <img src="/alex-pc.png" alt="alex-pc" />
+        </div>
+        </>
     );
 }
 
