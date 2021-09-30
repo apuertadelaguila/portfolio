@@ -229,15 +229,18 @@ footer {
 .description-icons {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.description-icons img {
+.description-icons a {
   width: 40px;
   margin: 10px;
   padding: 5px;
+  display: flex;
+  align-items: center;
 }
 
-.description-icons img:hover {
+.description-icons a:hover {
   border-radius: 50%;
   box-shadow: 0 0 8px rgba(33,33,33,.4);
 }
@@ -250,7 +253,7 @@ footer {
 }
 
 
-.tech-icons img {
+.tech-icons span {
   width: 40px;
   margin: 10px;
 }
@@ -276,10 +279,6 @@ footer {
 
 .alex-pc {
   text-align: center;
-}
-
-.alex-pc img {
-  width: 220px;
 }
 
 .contact {

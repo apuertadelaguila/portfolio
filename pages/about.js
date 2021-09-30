@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import "aos/dist/aos.css";
+import Image from 'next/image';
 const About = () => {
 
     useEffect(() => {
@@ -22,7 +23,7 @@ const About = () => {
             <p>Regarding my hobbies, I like to play instruments, play sports, play video games and of course learn more about programming which has become one of my main hobbies.</p>
         </div>
         <div className="alex-pc">
-            <img src="/alex-pc.png" alt="alex-pc" />
+            <Image src="/alex-pc.png" alt="alex-pc" width="240" height="200"/>
         </div>
         </>
     );

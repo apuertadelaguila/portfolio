@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="welcome" data-aos="slide-left">
       <div className="alex">
-        <Image src="/Alex.png" width="280" height="300" />
+        <Image src="/Alex.png" width="280" height="300" alt="alex"/>
       </div>
       <h1>Alejandro Puerta</h1>
       <h2>Front-end Developer</h2>
