@@ -286,6 +286,33 @@ footer {
   
 }
 
+.contact {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.contact h1 {
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 100%;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+form button {
+  margin-bottom: 50px;
+}
+
 @media only screen and (max-width: 992px) {
 
   .project {
