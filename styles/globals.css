@@ -275,15 +275,11 @@ footer {
 }
 
 .alex-pc {
-  position: absolute;
-  left: 0;
-  bottom: 30px;
-  box-shadow: 0 0 8px 8px gainsboro inset;
+  text-align: center;
 }
 
 .alex-pc img {
   width: 220px;
-  
 }
 
 .contact {
@@ -334,11 +330,6 @@ form button {
 
   .about p {
     width: 75%;
-  }
-
-  .alex-pc {
-    position: relative;
-    text-align: center;
   }
 
 }

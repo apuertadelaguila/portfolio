@@ -1,4 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from 'next/router';
+import service from './api/services/contact-service';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 const EMAIL_PATTERN = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
 
@@ -31,6 +35,13 @@ const validations = {
 };
 
 const Contact = () => {
+
+
+    useEffect(() => {
+        AOS.init({
+            duration: 2000
+        })
+    }, [])
 
     const [state, setState] = useState({
         contact: {
@@ -79,49 +90,26 @@ const Contact = () => {
             };
         });
     };
+    const router = useRouter();
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         event.preventDefault();
-        const { name, email, text } = state.contact;
-
-        let data = {
-            name,
-            email,
-            text
-        }
-
+        console.log('Sending...');
         if (isValid()) {
-            fetch('/api/contact', {
-                method: 'POST',
-                headers: {
-                    'Accept': 'application/json, text/plain, */*',
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(data)
-            }).then((res) => {
-                console.log('Response received')
-                if (res.status === 200) {
-                    history.push('/');
-                    console.log('Response succeeded!')
-                    setState(state => {
-                        return {
-                            ...state,
-                            contact: {
-                                name: "",
-                                email: "",
-                                text: ""
-                            }
-                        }
-                    })
-                }
-            })
+            try {
+                const data = { ...state.contact }
+                router.push('/');
+                await service.sendMail(data);
+            } catch (error) {
+                console.error(error)
+            }
         }
     }
 
     const { contact, errors, touch } = state;
 
     return (
-        <div className="contact">
+        <div className="contact" data-aos="fade">
             <h1>Contact</h1>
             <form onSubmit={handleSubmit}>
                 <div>
