@@ -98,8 +98,8 @@ const Contact = () => {
         if (isValid()) {
             try {
                 const data = { ...state.contact }
-                router.push('/');
                 await service.sendMail(data);
+                router.push('/');
             } catch (error) {
                 console.error(error)
             }
