@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Footer from './Footer';
 import Script from 'next/script';
+import aleximage from '../public/Alex.png'
 
 const Layout = ({ children }) => {
   return (
@@ -9,7 +10,7 @@ const Layout = ({ children }) => {
       <Head>
         <title>Alejandro Puerta</title>
         <meta name="description" content="Portfolio Alejandro Puerta" />
-        <meta name="image" property="og:image" content="/Alex.png"/>
+        <meta key="image" property="og:image" content={aleximage}/>
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
           rel="stylesheet"
