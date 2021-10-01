@@ -17,3 +17,14 @@ module.exports = {
     ]
   }
 };
+
+module.exports = {
+  async rewrites() {
+      return [
+        {
+          source: '/api/:path*',
+          destination: 'https://alejandropuerta.netlify.app/:path*',
+        },
+      ]
+    },
+};
