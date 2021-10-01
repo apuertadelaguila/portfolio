@@ -2,10 +2,8 @@ import axios from 'axios';
 
 const http = axios.create({
   withCredentials: true,
-  baseURL: process.env.apiUrl || 'http://localhost:3000/api'
+  baseURL: process.env.REACT_APP_API_BASE_URL || 'http://localhost:3000/api'
 })
-
-console.log(process.env.REACT_APP_API_BASE_URL)
 
 http.interceptors.response.use(function (response) {
 
