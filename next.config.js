@@ -1,6 +1,3 @@
-module.exports = {
-  reactStrictMode: true,
-}
 
 module.exports = {
   async rewrites() {
@@ -11,10 +8,8 @@ module.exports = {
         },
       ]
     },
+    reactStrictMode: true,
+    env: {
+      apiUrl="alejandropuerta.netlify.app/api"
+    },
 };
-
-module.exports = {
-  env: {
-    REACT_APP_API_BASE_URL="alejandropuerta.netlify.app/api"
-  },
-}
