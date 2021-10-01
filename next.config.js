@@ -5,6 +5,6 @@ module.exports = {
 
 module.exports = {
   env: {
-    REACT_APP_API_BASE_URL: 'alejandropuerta.netlify.app/api',
+    REACT_APP_API_BASE_URL: 'https://alejandropuerta.netlify.app/api',
   },
 }
