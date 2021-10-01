@@ -7,12 +7,12 @@ export default function Home() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000
+      duration: 2000
     })
   }, [])
 
   return (
-    <div className="welcome" data-aos="slide-left">
+    <div className="welcome" data-aos="flip-left">
       <div className="alex">
         <Image src="/Alex.png" width="280" height="300" alt="alex"/>
       </div>
