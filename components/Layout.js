@@ -9,6 +9,7 @@ const Layout = ({ children }) => {
       <Head>
         <title>Alejandro Puerta</title>
         <meta name="description" content="Portfolio Alejandro Puerta" />
+        <meta name="image" property="og:image" content="/Alex.png"/>
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
           rel="stylesheet"
