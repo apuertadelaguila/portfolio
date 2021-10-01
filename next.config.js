@@ -12,3 +12,9 @@ module.exports = {
       ]
     },
 };
+
+module.exports = {
+  env: {
+    REACT_APP_API_BASE_URL="alejandropuerta.netlify.app/api"
+  },
+}
