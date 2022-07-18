@@ -14,7 +14,7 @@ const Footer = () => {
                         <Image src="/mail.svg" alt="mail" width="25" height="25" />
                     </a>
                 </Link>
-                <Link href="https://www.linkedin.com/in/alejandro-puerta-17b404201" >
+                <Link href="https://www.linkedin.com/in/alejandro-puerta-del-%C3%A1guila-17b404201/" >
                     <a className="icon" target="_blank">
                         <Image src="/linkedin.svg" alt="linkedin" width="25" height="25" />
                     </a>
