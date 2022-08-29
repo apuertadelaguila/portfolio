@@ -17,7 +17,7 @@ const Work = () => {
             <h1>Projects I'm working on</h1>
             <section className="projects">
                 <div className="project" data-aos="fade">
-                    <Image src="/journey-calculator.png" className="project-img" width="480" height="250" layout="responsive" alt="journeycalculator" />
+                    <Image src="/journeycalculator.png" className="project-img" width="480" height="250" layout="responsive" alt="journeycalculator" />
                     <div className="project-description">
                         <div>JOURNEY CALCULATOR</div>
                         <p>Web App for calculating car travels and to share the cost of them. Fuel Stations data fetched from official Spanish goverment website. The App was developed on Next.js, using React logic and styled with Bootstrap and custom CSS.</p>
@@ -89,7 +89,7 @@ const Work = () => {
                     </div>
                 </div>
                 <div className="project" data-aos="fade">
-                    <Image src="/PetPortal.png" className="project-img" width="480" height="250" layout="responsive" alt="petportal" />
+                    <Image src="/petportal.png" className="project-img" width="480" height="250" layout="responsive" alt="petportal" />
                     <div className="project-description">
                         <div>PET PORTAL</div>
                         <p>Final bootcamp project. MERN App designed to facilitate the search for care for our pets or to be the caregivers. Added several implementations such as social login or Google Maps and Autocomplete Api and deployed on Heroku in a Docker container. Pair programmed remotely.</p>
@@ -161,7 +161,7 @@ const Work = () => {
                     </div>
                 </div>
                 <div className="project" data-aos="fade">
-                    <Image src="/super-pang-arcade.png" className="project-img" width="480" height="250" layout="responsive" alt="superpang" />
+                    <Image src="/superpangarcade.png" className="project-img" width="480" height="250" layout="responsive" alt="superpang" />
                     <div className="project-description">
                         <div>SUPER PANG</div>
                         <p>This is the first project during my Ironhack Web Development Bootcamp! I programed an arcade game Pang style in which I mastered the object oriented programming (OOP) in a JavaScript environment.</p>
