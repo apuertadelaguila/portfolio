@@ -22,7 +22,15 @@ export default function (req, res) {
         html: `<h1>Hi Alejandro</h1> <p>${req.body.name} has sent you a new Job Offer!</p> <p>${req.body.text}</p> <p>${req.body.email}</p>`
     }
         
-    transport.sendMail(mailData);
+    transport.sendMail(mailData, (error, response) => {
+        if (error) {
+            console.log(error)
+            res.end("error")
+        } else {
+            console.log("Message sent")
+            res.end("sent")
+        }
 
-    res.status(200);
+        transport.close();
+    })
 }
