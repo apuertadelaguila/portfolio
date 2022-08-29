@@ -30,7 +30,7 @@ export default function (req, res) {
             console.log("Message sent")
             res.end("sent")
         }
-
+        response.status(200);
         transport.close();
     })
 }
