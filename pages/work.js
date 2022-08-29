@@ -53,7 +53,7 @@ const Work = () => {
                     </div>
                 </div>
                 <div className="project" data-aos="fade">
-                    <Image src="/ThePhoneCave.png" className="project-img" width="480" height="250" layout="responsive" alt="thephonecave" />
+                    <Image src="/thephonecave.png" className="project-img" width="480" height="250" layout="responsive" alt="thephonecave" />
                     <div className="project-description">
                         <div>THE PHONE CAVE</div>
                         <p>Web App for buying smartphones or rating them. Deployed a fully MERN responsive web application from scratch, implementing shopping cart with localstorage, being able to log in with social login and deployed on Heroku in a Docker container.</p>
@@ -125,7 +125,7 @@ const Work = () => {
                     </div>
                 </div>
                 <div className="project" data-aos="fade">
-                    <Image src="/JustGame.png" className="project-img" width="480" height="250" layout="responsive" alt="justgame" />
+                    <Image src="/justgame.png" className="project-img" width="480" height="250" layout="responsive" alt="justgame" />
                     <div className="project-description">
                         <div>JUST GAME</div>
                         <p>Second Ironhack project. Web App for video games purchasing and selling. Deployed a fully responsive web application from scratch by using Node JS, Express, MongoDB & Handlebars. Implemented GoogleMaps API for geocoding and Autocomplete, social login with Google and Steam. Pair programmed remotely.</p>
