@@ -53,6 +53,42 @@ const Work = () => {
                     </div>
                 </div>
                 <div className="project" data-aos="fade">
+                    <Image src="/graficasgenil.png" className="project-img" width="480" height="250" layout="responsive" alt="graficasgenil" />
+                    <div className="project-description">
+                        <div>GRÁFICAS GENIL</div>
+                        <p>Web that I was commissioned to develop for a company. The website is developed on Next.js and uses an api to send email from client to company. Styled with Tailwind and custom CSS</p>
+                        <div className="description-icons">
+                            <Link href="https://graficasgenil.es">
+                                <a target="_blank">
+                                    <Image src="/rocket.svg" alt="rocket" width="40" height="40" />
+                                </a>
+                            </Link>
+                            <Link href="https://github.com/aguiluxo91/graficasgenil">
+                                <a target="_blank">
+                                    <Image src="/github.svg" alt="github-icon" width="40" height="40" />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="tech-icons">
+                            <span>
+                                <Image src="/nextjs.svg" alt="nextjs-icon" width="40" height="40" />
+                            </span>
+                            <span>
+                                <Image src="/react-icon.svg" alt="react-icon" width="40" height="40" />
+                            </span>
+                            <span>
+                                <Image src="/js-icon.svg" alt="javascript-icon" width="40" height="40" />
+                            </span>
+                            <span>
+                                <Image src="/node-icon.svg" alt="node-icon" width="40" height="40" />
+                            </span>
+                            <span>
+                                <Image src="/css-icon.svg" alt="css-icon" width="40" height="40" />
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div className="project" data-aos="fade">
                     <Image src="/thephonecave.png" className="project-img" width="480" height="250" layout="responsive" alt="thephonecave" />
                     <div className="project-description">
                         <div>THE PHONE CAVE</div>
